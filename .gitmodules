@@ -1,0 +1,9 @@
+[submodule "minimo"]
+	path = minimo
+	url = https://github.com/MunifTanjim/minimo.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/themes/paper"]
+	path = themes/themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
