@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kayne</title>
-    <link>https://github.com/KayneWang/posts/</link>
+    <link>https://KayneWang.github.io/posts/</link>
     <description>Recent content in Posts on Kayne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2020 20:15:09 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 00:05:43 +0800</lastBuildDate>
     
-	<atom:link href="https://github.com/KayneWang/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://KayneWang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://github.com/KayneWang/posts/my-first-post/</link>
-      <pubDate>Thu, 20 Aug 2020 20:15:09 +0800</pubDate>
-      
-      <guid>https://github.com/KayneWang/posts/my-first-post/</guid>
-      <description>First Post 测试</description>
-    </item>
     
   </channel>
 </rss>
