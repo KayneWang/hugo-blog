@@ -1,4 +1,6 @@
----
+git:
+    depth: 1
+
 install:
     - curl -L0
     https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.deb
@@ -8,8 +10,14 @@ script:
     - hugo
 
 deploy:
-    - provider: script
-      script: ./deploy.sh
-      skip_cleanup: true
-      on:
-        branch: master
+    provider: pages
+    skip_cleanup: true
+    github_token: token
+    on:
+    branch: master
+    local_dir: public
+    repo: KayneWang/KayneWang.github.io
+    fqdn: <custom-domain-if-needed>
+    target_branch: master
+    email: w.zengkai@foxmail.com
+    name: KayneWang
