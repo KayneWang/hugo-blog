@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://KayneWang.github.io/sitemap.xml
