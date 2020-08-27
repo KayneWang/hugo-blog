@@ -18,11 +18,7 @@ after_script:
     - git config user.email w.zengkai@foxmail.com
     - git add .
     - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-    - git push --force --quiet ${GH_REF} master:master
-
-env:
-    global:
-        - GH_REF: https://github.com/KayneWang/KayneWang.github.io
+    - git push --force --quiet https://github.com/KayneWang/KayneWang.github.io master:master
 
 deploy:
     provider: pages
