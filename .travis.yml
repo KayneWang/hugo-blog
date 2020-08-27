@@ -14,10 +14,9 @@ deploy:
     skip_cleanup: true
     github_token: token
     on:
-    branch: master
-    local_dir: public
-    repo: KayneWang/KayneWang.github.io
-    fqdn: <custom-domain-if-needed>
-    target_branch: master
-    email: w.zengkai@foxmail.com
-    name: KayneWang
+        branch: master
+        local_dir: public
+        repo: KayneWang/KayneWang.github.io
+        target_branch: master
+        email: w.zengkai@foxmail.com
+        name: KayneWang
