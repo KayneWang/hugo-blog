@@ -2,6 +2,8 @@
 title: "About"
 date: 2020-08-26T23:13:40+08:00
 draft: true
+menu: "main"
+weight: 50
 ---
 
 ## <center>个人简历</center>
