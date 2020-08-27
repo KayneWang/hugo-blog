@@ -1,5 +1,8 @@
 language: go
 
+git:
+    depth: 1
+
 install:
     - wget https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.deb
     - sudo dpkg -i hugo_0.74.3_Linux-64bit.deb
@@ -8,14 +11,23 @@ install:
 script:
     - hugo
 
+after_script:
+    - cd ./public
+    - git init
+    - git config user.name KayneWang
+    - git config user.email w.zengkai@foxmail.com
+    - git add .
+    - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+    - git push --force --quiet "https://$GITHUB_TOKEN${GH_REF}" master:master
+
+env:
+    global:
+        - GH_REF: KayneWang/KayneWang.github.io
+
 deploy:
     provider: pages
     skip_cleanup: true
     github_token: token
     local_dir: public
-    repo: KayneWang/KayneWang.github.io
-    target_branch: master
-    email: w.zengkai@foxmail.com
-    name: KayneWang
     on:
         branch: master
