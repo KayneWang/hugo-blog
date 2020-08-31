@@ -68,7 +68,7 @@ weight: 50
 ##### XUI 组件库（2020.1 - 至今）
 
 * 技术栈
-	* react + antd + rollup + docz
+	* react + antd + ~~rollup + docz~~ + dumi
 * 工作内容
 	* 基于 antd 封装一套通过配置生成页面的前端组件库
 	* 搭建 npm 私有仓库，开源组件库统一纳入 XUI 进行版控

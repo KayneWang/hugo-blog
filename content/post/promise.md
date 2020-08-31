@@ -1,11 +1,11 @@
 ---
-title: "Promise"
+title: "Promise 源码实现"
 date: 2020-08-31T19:52:40+08:00
 lastmod: 2020-08-31T19:52:40+08:00
 draft: true
-keywords: []
+keywords: ["Promise", "源码实现"]
 description: "Promise/A+ 规范源码实现"
-tags: []
+tags: ["Promise"]
 categories: []
 author: "Kayne"
 
