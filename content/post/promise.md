@@ -2,10 +2,10 @@
 title: "Promise 源码实现"
 date: 2020-08-31T19:52:40+08:00
 lastmod: 2020-08-31T19:52:40+08:00
-draft: true
+draft: false
 keywords: ["Promise", "源码实现"]
 description: "Promise/A+ 规范源码实现"
-tags: ["Promise"]
+tags: ["promise"]
 categories: []
 author: "Kayne"
 
@@ -215,3 +215,4 @@ $ npm install -g promise-aplus-tests
 1. 规范中要求 onFulfilled 和 onRejected 必须异步调用，所以 setTimeout 只是用来模拟异步，原生的 Promise 并非这么实现。
 2. resolvePromise 的 used 开关，也是因为规范中明确表示：当同时 resolvePromise 和 rejectPromise 被调用时，或者对同一参数进行多次调用，
 则第一次调用优先，后续忽略任何一步的调用。
+3. self.onFulfilled 和 self.onRejected 存储了成功和失败的回调，根据规范 2.6 显示，当状态从 pending 改变时，需要按照顺序去指定 then 对应的回调。
