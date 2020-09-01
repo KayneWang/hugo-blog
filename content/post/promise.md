@@ -207,7 +207,7 @@ Promise.defer = Promise.deferred = function() {
 ```
 
 ```shell
-$ npm install -g promise-aplus-tests
+$ npm install -g promises-aplus-tests
 ```
 
 ## 简要说明
