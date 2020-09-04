@@ -159,7 +159,6 @@ Promise.prototype.then = function(onFulfilled, onRejected) {
 
 ```js
 function resolvePromise(promise2, x, resolve, reject) {
-  let self = this;
   if (promise2 === x) {
     reject(new TypeError('Chaining cycle'));
   }
