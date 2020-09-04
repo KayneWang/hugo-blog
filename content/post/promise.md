@@ -163,7 +163,7 @@ function resolvePromise(promise2, x, resolve, reject) {
   if (promise2 === x) {
     reject(new TypeError('Chaining cycle'));
   }
-  if (x && typeof x === 'object' || typeof === 'function') {
+  if (x && typeof x === 'object' || typeof x === 'function') {
     let used; // PromiseA+ 2.3.3.3 只能调用一次
     try {
       let then = x.then;
