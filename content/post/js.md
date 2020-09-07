@@ -1,11 +1,11 @@
 ---
 title: "JavaScript"
-date: 2020-09-14
+date: 2019-09-15
 lastmod: 2020-09-03T14:45:06+08:00
 draft: false
 keywords: []
 description: "js 面试题"
-tags: []
+tags: ["js"]
 categories: ["js"]
 author: "Kayne"
 
