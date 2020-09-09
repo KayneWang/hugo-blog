@@ -149,7 +149,7 @@ Promise.all = function(promises) {
     let index = 0;
     let result = [];
     if (promises.length === 0) {
-      resulve(result);
+      resolve(result);
     } else {
       function processValue(i, data) {
         result[i] = data;
