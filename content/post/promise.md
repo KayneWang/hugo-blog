@@ -40,11 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
-# Promise 源码实现
-
 <b>理解很重要！理解很重要！理解很重要！</b>
+
+<!--more-->
 
 ## 规范
 

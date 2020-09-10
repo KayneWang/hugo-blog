@@ -40,6 +40,8 @@ sequenceDiagrams:
 
 ---
 
+订阅-发布设计模式实践
+
 <!--more-->
 
 # Event bus

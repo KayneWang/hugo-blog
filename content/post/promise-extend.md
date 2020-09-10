@@ -40,6 +40,8 @@ sequenceDiagrams:
 
 ---
 
+Promise 扩展方法的一些实现
+
 <!--more-->
 
 ## Promise.resolve

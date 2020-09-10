@@ -40,6 +40,8 @@ sequenceDiagrams:
 
 ---
 
+JS 常用方法的源码实现
+
 <!--more-->
 
 ## 实现防抖函数

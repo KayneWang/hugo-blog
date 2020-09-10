@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
+书单系列
 
-# 必看书单
+<!--more-->
 
 ## JavaScript 系列
 
