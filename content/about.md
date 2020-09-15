@@ -10,14 +10,15 @@ weight: 50
 
 #### 基本信息
 
-- 姓名：王增凯
-- 电话：17602136657
-- github：[https://github.com/KayneWang](https://github.com/KayneWang)
+* 姓名：王增凯
+* 电话：17602136657(微信同号)
+* 邮箱：826981961@qq.com
+* github：[https://github.com/KayneWang](https://github.com/KayneWang)
 
 #### 技能
 
 - 熟练 react、vue 框架，对 react 源码以及架构设计有一定的了解
-- 熟练 TS，贡献过 TS 类型开源仓库并拥有大量的实战经验
+- 熟练 TS，贡献过 TS 类开源仓库并拥有大量的实战经验
 - 熟练前端组件库设计，有主导公司中后台组件库建设的经验
 - 熟练 golang、iris 框架，有实际项目开发经验
 - 熟练使用 docker、MySQL
