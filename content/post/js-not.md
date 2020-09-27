@@ -2,7 +2,7 @@
 title: "JS 中的 ~(按位非) 运算符"
 date: 2020-09-25T17:57:03+08:00
 lastmod: 2020-09-25T17:57:03+08:00
-draft: true
+draft: false
 keywords: []
 description: ""
 tags: []
@@ -79,5 +79,30 @@ JavaScript 中 ~ 运算符的巧妙运用
 
 很简单，因为 0 011 最高位是 0，正数的补码等于 **源码**，所以直接输出 3
 
-https://juejin.im/post/6844903717611782157
-https://www.cnblogs.com/hutaoer/p/3390710.html
+## 应用场景
+
+### indexOf()
+
+判断数组或者字符中元素是否存在：
+
+```js
+if (str.indexOf(query) !== -1) {}
+if (str.indexOf(query) >= 0) {}
+```
+
+可以用按位非操作替换：
+
+```js
+if (~str.indexOf(query)) {}
+```
+
+当然，这种写法不仅仅是B格高，对于一次运算来说相差无几，只是循环次数过大，比如超过了 10000000 次，效率会有差距。
+
+### ~~value 使用
+
+对于浮点数，使用 ~~value 可以代替 parseInt(value)，位操作效率更高些
+
+```js
+parseInt(-2.99) // -2
+~~(-2.99) // -2
+```
