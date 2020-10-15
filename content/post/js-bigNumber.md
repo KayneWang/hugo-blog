@@ -2,7 +2,7 @@
 title: "JavaScript 大整数"
 date: 2020-09-28T10:15:17+08:00
 lastmod: 2020-09-28T10:15:17+08:00
-draft: true
+draft: false
 keywords: ["bigNumber"]
 description: ""
 tags: ["js", "bigNUmber"]
@@ -79,4 +79,6 @@ function add(a, b) {
 
   return sum;
 }
+
+const bigNumberSum = add(a, b); // 1243575099254740990
 ```
